@@ -25,8 +25,7 @@ var css1 = `
     }
 `
 var css2 = `
-/*接下来我需要一张纸*/
-    
+/*接下来我需要一张纸*/ 
     .code-wrapper{
         box-shadow:0 0 20px rgba(0,0,0,0.25);
         width:50%;
