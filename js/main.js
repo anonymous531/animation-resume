@@ -28,7 +28,7 @@ var css2 = `
 /*接下来我需要一张纸*/
     
     .code-wrapper{
-        box-shadow:0 0 10px rgba(0,0,0,0.25);
+        box-shadow:0 0 20px rgba(0,0,0,0.25);
         width:50%;
         position:fixed;
         left:0;
@@ -109,7 +109,7 @@ function writeCode(prefix,code,fn){
             window.clearInterval(clock)
             fn && fn.call()
         }
-    },30)
+    },70)
 }
 
 function writeMarkdown(markdown,fn){
@@ -123,7 +123,7 @@ function writeMarkdown(markdown,fn){
             window.clearInterval(clock)
             fn && fn.call()
         }
-    },50)
+    },30)
 }
 
 function createPaper(fn){
